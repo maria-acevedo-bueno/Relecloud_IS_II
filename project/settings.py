@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
+    ".azurewebsites.net",  # wildcard: allows any *.azurewebsites.net
 ]
 
 # Application definition
