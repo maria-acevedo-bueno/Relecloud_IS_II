@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-=t96hdswe#5p6z%=56**ykn1r9inze=7bab&jmhkv+l2#l)fi(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net/']
-
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
+]
 
 # Application definition
 
