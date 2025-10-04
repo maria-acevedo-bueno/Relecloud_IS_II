@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "https://relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net/",
+    "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net/",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
