@@ -23,18 +23,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=t96hdswe#5p6z%=56**ykn1r9inze=7bab&jmhkv+l2#l)fi('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net/",
+    "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "https://127.0.0.1:8000",
-    "https://https://relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net/",
+    "https://relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
 ]
 
 # Application definition
@@ -126,7 +126,7 @@ USE_TZ = True
 
 STATIC_URL = "/static/"       
 STATIC_ROOT = BASE_DIR / "staticfiles"
-STATICFILES_DIRS = [BASE_DIR / "relecloud/static"]
+STATICFILES_DIRS = [BASE_DIR / "relecloud" / "static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
