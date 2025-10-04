@@ -4,9 +4,9 @@ from django.db import models
 class Destination(models.Model):
     name = models.CharField(
         unique = True,
+        max_length = 50,
         null = False,
-        blank = False,
-        max_length = 50
+        blank = False
     )
     description = models.TextField(
         max_length = 2000,
