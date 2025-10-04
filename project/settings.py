@@ -34,7 +34,7 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "https://127.0.0.1:8000",
-    "https://relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
+    "https://relecloud-macevedo-d9gtc8apb4ayase5.francecentral-01.azurewebsites.net",
 ]
 
 # Application definition
@@ -53,7 +53,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
