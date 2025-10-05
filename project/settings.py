@@ -29,12 +29,14 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     "relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
+    "relecloud-macevedo.azurewebsites.net",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "https://127.0.0.1:8000",
     "https://relecloud-maria-acevedo-dkfza8h7adf4fncq.francecentral-01.azurewebsites.net",
+    "https://relecloud-macevedo.azurewebsites.net",
 ]
 
 # Application definition
