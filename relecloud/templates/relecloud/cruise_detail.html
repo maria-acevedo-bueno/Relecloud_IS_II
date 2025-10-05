@@ -10,8 +10,6 @@ Relecloud - Cruise {{ cruise.name }}
     Cruise {{ cruise.name }}
 </h1>
 
-<p>
-    Still in development
-</p>
+{{ cruise.description|linebreaks }}
 
 {% endblock content %}
